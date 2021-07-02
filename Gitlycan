@@ -1,0 +1,7 @@
+echo "# git-money" >> readme.md
+git init
+git add readme.md
+git commit -m "first commit"
+git branch -m main
+git remote add origin https://github.com/samuelkayla/git-money.git
+git push -u origin main
